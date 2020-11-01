@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.game-obstacle {
+    background: yellow;
+    border: 0.3vw dotted red;
+    margin-right: 1vw;
+    display: inline-block;
+    height: 50px;
+    width: 7vw;
+}
+
+.game-obstacle2 {
+    background: green;
+    border: 5px dotted blue;
+    margin-right: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+}
+
+/* .game-obstacle3 {
+    background: pink;
+    border: 5px dotted green;
+    margin-right: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+} */
+
+#div1 {
+    background: red;
+}
