@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "Alegreya";
+    src: url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+}
+
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    font-family: "Alegreya";
+    background: linear-gradient(45deg, red, orange);
 }
 
 .game-obstacle {
@@ -11,25 +19,6 @@ body {
     height: 50px;
     width: 7vw;
 }
-
-.game-obstacle2 {
-    background: green;
-    border: 5px dotted blue;
-    margin-right: 50px;
-    display: inline-block;
-    height: 50px;
-    width: 100px;
-    /* ghsdyughsdyugh */
-}
-
-/* .game-obstacle3 {
-    background: pink;
-    border: 5px dotted green;
-    margin-right: 50px;
-    display: inline-block;
-    height: 50px;
-    width: 100px;
-} */
 
 #div1 {
     background: red;
