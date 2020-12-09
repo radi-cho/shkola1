@@ -1,6 +1,6 @@
 // var name = prompt("What's your name?");
 var name = "Radi";
-var element1 = document.getElementById("playerDetails");
+var element1 = document.getElementById("playerName");
 element1.innerHTML = "Your name is: <b>" + name + "</b>";
 
 var element2 = document.getElementById("score");
@@ -12,7 +12,7 @@ var speeds = [10, 20, 50, 15, 30, 10, 40, 60, 5, 20];
 
 function start(currentSq, i) {
   setInterval(function() {
-    if (topSize[i] < window.innerHeight - sqHeight) {
+    if (topSize[i] < window.innerHeight * .95 - sqHeight) {
       currentSq.style.top = topSize[i] + "px";
       topSize[i] += speeds[i];
     } else {
