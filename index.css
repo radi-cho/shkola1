@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Alegreya";
-    src: url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+    src: url("./fonts/Alegreya-Regular.ttf");
 }
 
 body {
@@ -8,19 +8,38 @@ body {
     padding: 0;
     height: 100vh;
     font-family: "Alegreya";
-    /* background: linear-gradient(45deg, red, orange); */
+    background-image: url(https://imgur.com/TUDBJUS.png);
+    background-size: contain;
 }
 
 .game-obstacle {
     background: yellow;
-    border: 0.3vw dotted red;
+    /* border: 0.3vw dotted red; */
     margin-right: 1vw;
     display: inline-block;
     height: 50px;
     width: 7vw;
     position: relative;
+    background-image: url(https://imgur.com/9oKQIqf.png);
+    background-size: contain;
+    background-repeat: fill;
 }
 
 #div1 {
     background: red;
+}
+
+#canvas {
+    height: 95vh;
+}
+
+#playerDetails {
+    background: linear-gradient(45deg, #99f6ff, #e799ff);;
+    height: 5vh;
+}
+
+#playerName {
+    padding: 5px 0 0 10px;
+    font-size: 22px;
+    font-family: "Alegreya";
 }
