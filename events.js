@@ -2,9 +2,9 @@ var obj = document.getElementById("player");
 
 var x = 0;
 var y = 0;
-var size = 50;
 
 function moveObj(event) {
+    var size = Math.round(window.innerWidth * 0.0822);
     switch(event.keyCode) {
         case 37:
             x -= size;
